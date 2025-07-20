@@ -1,0 +1,99 @@
+/* General SignUp Container */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: slateblue;
+  }
+  
+  .signup-content {
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Header Style */
+  .signup-header h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Style */
+  .signup-form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-group input:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    padding: 12px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #003f8a;
+  }
+  
+  /* Text below the form */
+  .login-text {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .login-text .login-link {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .login-text .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error Message */
+  .error-message {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

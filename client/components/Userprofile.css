@@ -1,0 +1,11 @@
+.user-profile {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .user-profile__name {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
